@@ -1,0 +1,181 @@
+{
+  // Workbench settings
+  "telemetry.telemetryLevel": "off",
+  "explorer.compactFolders": false,
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.enableExperiments": false,
+  // Editor and integrated terminal settings
+  "explorer.confirmDragAndDrop": false,
+  "editor.tabSize": 4,
+  "editor.fontFamily": "mononoki",
+  "editor.fontSize": 17,
+  "editor.fontLigatures": true,
+  "editor.roundedSelection": false,
+  "editor.cursorStyle": "block",
+  "editor.cursorBlinking": "solid",
+  "editor.folding": false,
+  "editor.glyphMargin": false,
+  "editor.overviewRulerBorder": false,
+  "editor.renderLineHighlight": "none",
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "off",
+  "editor.matchBrackets": "near",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.formatOnSave": true,
+  "editor.guides.indentation": false,
+  "editor.wordWrap": "off",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.cursorSurroundingLines": 10,
+  "editor.tokenColorCustomizations": {
+    "comments": "#2EA542"
+  },
+  "terminal.integrated.fontFamily": "Mononoki Nerd Font Mono",
+  "terminal.integrated.fontSize": 16,
+  // Vim settings
+  "vim.leader": "<space>",
+  "vim.searchHighlightColor": "rgba(150, 255, 255, 0.3)",
+  "vim.cursorStylePerMode.insert": "block",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-b>": false
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "d"
+      ],
+      "after": [
+        "d",
+        "d"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "i"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.terminal.focus"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "u"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.focusActiveEditorGroup"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "p"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.quickOpen"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "o"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.quickOpen"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "n"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.terminal.toggleTerminal"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "v"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.splitEditor"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "h"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.focusFirstEditorGroup"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "l"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.focusSecondEditorGroup"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<C-n>"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": ":nohl"
+        }
+      ]
+    }
+  ],
+  "go.toolsManagement.autoUpdate": true,
+}
